@@ -30,7 +30,7 @@ public class StudentReponse {
 		this.lastName = student.getLastName();
 		this.email = student.getEmail();
 		this.street = student.getAddress().getStreet();
-		this.street = student.getAddress().getCity();
+		this.city = student.getAddress().getCity();
 		
 		if(student.getLearningSubjects() != null) {
 			learningSubjects = new ArrayList<SubjectResponse>();
