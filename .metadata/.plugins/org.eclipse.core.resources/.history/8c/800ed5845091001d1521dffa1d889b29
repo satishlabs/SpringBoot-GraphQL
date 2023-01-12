@@ -1,0 +1,5 @@
+package com.satishlabs.request;
+
+public class SampleRequest {
+
+}

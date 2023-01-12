@@ -1,0 +1,5 @@
+package com.satishlabs.response;
+
+public class StudentReponse {
+
+}

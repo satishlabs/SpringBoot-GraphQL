@@ -1,0 +1,18 @@
+package com.satishlabs.response;
+
+import lombok.Data;
+
+@Data
+public class StudentReponse {
+	private long id;
+	
+	private String firstName;
+	
+	private String lastName;
+	
+	private String email;
+	
+	private String street;
+	
+	private String city;
+}

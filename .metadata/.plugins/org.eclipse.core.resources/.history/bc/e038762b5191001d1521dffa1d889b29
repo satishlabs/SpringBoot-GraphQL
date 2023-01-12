@@ -1,0 +1,6 @@
+type Query {
+	firstQuery : String
+	secondQuery: String
+	fullName(firstName : String, lastNane : String) : String
+	fullName(sampleRequest : SampleRequest) : String
+}
