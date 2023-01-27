@@ -1,6 +1,0 @@
-#by default /graphiql
-graphiql.mapping=/app-ui
-
-
-#by default /graphql
-graphql.servlet.mapping=/satishlabs

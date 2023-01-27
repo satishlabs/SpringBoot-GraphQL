@@ -1,5 +1,0 @@
-type Query {
-	firstQuery : String
-	secondQuery: String
-	fullName : String
-}

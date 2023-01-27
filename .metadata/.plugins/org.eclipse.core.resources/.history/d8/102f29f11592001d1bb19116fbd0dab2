@@ -1,5 +1,0 @@
-package com.satishlabs.repository;
-
-public interface SubjectRepository {
-
-}
