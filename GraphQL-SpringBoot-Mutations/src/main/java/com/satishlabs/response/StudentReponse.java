@@ -1,10 +1,8 @@
 package com.satishlabs.response;
 
-import java.util.ArrayList;
 import java.util.List;
 
 import com.satishlabs.entity.Student;
-import com.satishlabs.entity.Subject;
 
 import lombok.Data;
 

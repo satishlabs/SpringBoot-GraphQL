@@ -4,6 +4,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 import com.coxautodev.graphql.tools.GraphQLMutationResolver;
+import com.satishlabs.request.CreateStudentRequest;
 import com.satishlabs.response.StudentReponse;
 import com.satishlabs.service.StudentService;
 
@@ -13,7 +14,7 @@ public class Mutation implements GraphQLMutationResolver {
 	@Autowired
 	private StudentService studentService;
 
-	public StudentReponse creatStudent(CreateStu) {
-
+	public StudentReponse creatStudent(CreateStudentRequest createStudentRequest) {
+		return new StudentReponse(studentService.createStudent(createStudentRequest));
 	}
 }
